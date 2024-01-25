@@ -1,8 +1,8 @@
 # Better filament runout handling
 
-This config lets the 3d printer continue printing with the 570 mm extra filament remaining between the filament runout sensor and the extruder, after the filament runout sensor has been triggered.
+This config lets the 3d printer continue printing with the 550 mm extra filament remaining between the filament runout sensor and the extruder, after the filament runout sensor has been triggered.
 
-Inserting new filament triggers the filament runout sensor, resuming the paused print job after purging 30 mm filament in the air.
+Inserting new filament triggers the filament runout sensor, resuming the paused print job after purging 50 mm filament in the air.
 
 Thanks to _TheRationalPi_ for providing the delayed pause code. [1]
 
